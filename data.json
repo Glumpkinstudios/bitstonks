@@ -1,0 +1,14 @@
+{
+  "volume": 50,
+  "token": "",
+  "voice": "Brian",
+  "upInterval": 600,
+  "minPrice": 10,
+  "maxPrice": 500,
+  "downValue": 10,
+  "upValue": 10,
+  "startPrice": 50,
+  "fontSize": 20,
+  "downValueTrigger": 100,
+  "fontColor": "rgb(0, 0, 0)"
+}

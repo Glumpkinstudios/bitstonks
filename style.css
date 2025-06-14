@@ -1,0 +1,6 @@
+#tts-price {
+  font-family: 'Montserrat', sans-serif;
+  color: {{fontColor}};
+  font-size: {{fontSize}}px;
+  overflow: hidden;
+}

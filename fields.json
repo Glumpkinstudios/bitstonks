@@ -1,0 +1,90 @@
+{
+  "volume": {
+    "type": "number",
+    "label": "Volume",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 1
+  },
+  "token": {
+    "type": "text",
+    "label": "JWT Token",
+    "value": "",
+    "placeholder": "Enter your JWT token here"
+  },
+  "voice": {
+    "type": "text",
+    "label": "TTS Voice",
+    "value": "Brian"
+  },
+  "upInterval": {
+    "type": "number",
+    "label": "Price increase interval in seconds:",
+    "value": 600,
+    "min": 1,
+    "max": 36000,
+    "step": 1
+  },
+  "minPrice": {
+    "type": "number",
+    "label": "Minimum price of TTS in bits:",
+    "value": 10,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "maxPrice": {
+    "type": "number",
+    "label": "Maximum price of TTS in bits:",
+    "value": 500,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "downValueTrigger": {
+    "type": "number",
+    "label": "Amount that will trigger decrease of TTS price",
+    "value": 100,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "downValue": {
+    "type": "number",
+    "label": "Price decrease value in bits:",
+    "value": 10,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "upValue": {
+    "type": "number",
+    "label": "Price increase value in bits:",
+    "value": 10,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "startPrice": {
+    "type": "number",
+    "label": "Starting price of TTS in bits:",
+    "value": 50,
+    "min": 1,
+    "max": 10000,
+    "step": 1
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size",
+    "value": 40,
+    "min": 0,
+    "max": 1000,
+    "step": 1
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "value": "rgb(0, 0, 0)"
+  }
+}
